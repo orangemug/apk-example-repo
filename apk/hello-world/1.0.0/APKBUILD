@@ -24,3 +24,6 @@ package() {
   mkdir -p "$pkgdir"/bin
   make DESTDIR="$pkgdir" install
 }
+md5sums="105bbe0da433ae666e15aa1b27a016e5  hello-world-1.0.0.tar.gz"
+sha256sums="0717d3eca1c688b8b61e8432658278c17b86131ec27dbb15d2fa4b096c1bbd8d  hello-world-1.0.0.tar.gz"
+sha512sums="219f6f530e280e6d031d9b14927ce9db62d84f9e61ae3160b53e3b15d8d36c048567e7a531fae9dde3e41ef4cd977ac8a29224665f8d8f0c4201852a1aee36d1  hello-world-1.0.0.tar.gz"
