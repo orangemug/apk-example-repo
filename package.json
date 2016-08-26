@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "apk-packager": "orangemug/apk-packager",
+    "apk-packager": "orangemug/apk-packager"
   }
 }
