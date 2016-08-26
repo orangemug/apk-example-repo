@@ -3,13 +3,9 @@ A demo [apk-packager](https://github.com/orangemug/apk-packager) repository
 
 [![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)][stability]
 [![Build Status](https://circleci.com/gh/orangemug/apk-example-repo.png?style=shield)][circleci]
-[![Dependency Status](https://david-dm.org/orangemug/apk-example-repo.svg)][dm-prod]
-[![Dev Dependency Status](https://david-dm.org/orangemug/apk-example-repo/dev-status.svg)][dm-dev]
 
 [stability]:   https://github.com/orangemug/stability-badges#work-in-progress
 [circleci]:    https://circleci.com/gh/orangemug/apk-example-repo
-[dm-prod]:     https://david-dm.org/orangemug/apk-example-repo
-[dm-dev]:      https://david-dm.org/orangemug/apk-example-repo#info=devDependencies
 
 The repository uses the [apk-packager](https://github.com/orangemug/apk-packager) to build packages into a github release (see <https://github.com/orangemug/apk-example-repo/releases/tag/master/x86_64>)
 
