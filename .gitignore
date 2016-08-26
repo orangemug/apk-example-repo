@@ -1,0 +1,5 @@
+/apk/*/*/pkg
+/apk/*/*/src
+/node_modules
+/packages
+/repository
