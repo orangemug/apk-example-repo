@@ -19,18 +19,13 @@ $ docker run -i -t alpine /bin/sh
 
 
 ## Usage
-Setup the repository
-
-```sh
-$ apk add update \
-  --allow-untrusted \
-  --repository 'https://github.com/orangemug/apk-example-repo/releases/download/master'
-```
-
 Install its only package [hello-world](https://github.com/orangemug/hello-world)
 
 ```sh
-$ apk add hello-world
+$ apk add \
+  --allow-untrusted \
+  --repository 'https://github.com/orangemug/apk-example-repo/releases/download/master' \
+  hello-world
 ```
 
 Now run `hello-world` to prove it installed
